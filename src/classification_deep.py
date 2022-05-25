@@ -41,6 +41,9 @@ import matplotlib.pyplot as plt
 # Argument parser
 def parse_args():
     ap = argparse.ArgumentParser()
+    """
+    Data saving arguments
+    """
     # plot name argument
     ap.add_argument("-p",
                     "--plot_name",
@@ -51,6 +54,10 @@ def parse_args():
                     "--report_name", 
                     default="deep_classification_report", 
                     help="The name you wish to save the classification report under")
+    
+    """
+    Hyperparameters for model
+    """
     # epochs argument
     ap.add_argument("-e",
                     "--epochs",
