@@ -1,0 +1,12 @@
+Classification report
+Epochs: 5
+Embedding dimensions: 300
+Batch size: 128
+              precision    recall  f1-score   support
+
+   non-toxic       0.98      0.99      0.98      5453
+       toxic       0.67      0.58      0.62       276
+
+    accuracy                           0.97      5729
+   macro avg       0.83      0.78      0.80      5729
+weighted avg       0.96      0.97      0.96      5729
