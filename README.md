@@ -1,4 +1,4 @@
-# Assignment 3 - Text classification
+# Assignment 4 - Text classification
 The portfolio for __Language Analytics S22__ consists of 5 projects (4 class assignments and 1 self-assigned project). This is the __fourth assignment__ in the portfolio. 
 
 ## 1. Contribution
