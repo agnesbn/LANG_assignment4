@@ -43,7 +43,7 @@ pip install pandas numpy scikit-learn tensorflow contractions nltk
 
 ### Get the data
 - The data belongs to the authors of [THREAT: A Large Annotated Corpus for Detection of Violent Threats](https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf) and will be provided to the examiner by Ross.
-- Place the data in the `in` folder so that the path to the data is `in/toxic/VideoCommentsThreatCorpus.csv`.
+- Place the data CSV in the `in` folder so that the path to the data is `in/VideoCommentsThreatCorpus.csv`.
 
 
 ### Machine learning script
