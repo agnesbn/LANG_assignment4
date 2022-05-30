@@ -45,10 +45,29 @@ pip install pandas numpy scikit-learn tensorflow contractions nltk
 - The data belongs to the authors of [THREAT: A Large Annotated Corpus for Detection of Violent Threats](https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf) and will be provided to the examiner by Ross.
 - Place the data CSV in the `in` folder so that the path to the data is `in/VideoCommentsThreatCorpus.csv`.
 
-
 ### Machine learning script
+Make sure your current directory is the `LANG_assignment4` folder. Then from the command line, run:
+```
+python src/classification_machine.py (--report_name <REPORT NAME>)
+```
+__Input__:
+- `<REPORT NAME>`: The name you want the classification report to be saved under. The default is `machine_classification_report`.
+
+The output will be saved in [`out/machine`](https://github.com/agnesbn/LANG_assignment4/tree/main/out/machine).
+
 
 ### Deep learning script
+Make sure your current directory is the `LANG_assignment4` folder. Then from the command line, run:
+```
+python src/classification_deep.py (--plot_name <PLOT NAME> --report_name <REPORT NAME> --epochs <EPOCHS> --embed_size <EMBEDDING SIZE> --batch_size <BATCH SIZE>
+```
+__Data saving arguments__:
+- `<PLOT NAME>`: The name you want the history plot to be saved under. The default is `deep_history_plot`.
+- `<REPORT NAME>`: The name you want the classification report to be saved under. The default is `deep_classification_report`.
 
+__Hyperparameters for model__:
+- `<EPOCHS>`: The number of epochs, the model is trained for. The default is `5`.
+- `<EMBEDDING SIZE>`: The number of dimensions for embedding. The default is `300`.
+- `<BATCH SIZE>`: The size of the batches that the data is processed by. The default is `128`.
 
 ## 5. Discussion of results
