@@ -71,3 +71,8 @@ __Hyperparameters for model__:
 - `<BATCH SIZE>`: The size of the batches that the data is processed by. The default is `128`.
 
 ## 5. Discussion of results
+With the _machine learning approach_ an __accuracy of 74%__ (76% for the non-toxic and 72% for the toxic data) was achieved and with the _deep learning approach_ an __accuracy of 97%__ (98% for the non-toxic and 62% for the toxic data). So, even though the deep learning model performed much better in general, it seems to perform worse for the toxic data. 
+
+The training curve for the deep learning model indicates that the model could benefit from a longer training time, as the curve has not completely flattened at 5 epochs. However, strangely enough the model seems to perform worse for the validation data after the second epoch. Playing around with the hyperparameters, epochs, embedding size and batch size, could foster better results.
+
+![](out/deep/deep_history_plot.png)
