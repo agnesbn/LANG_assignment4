@@ -4,7 +4,7 @@ The portfolio for __Language Analytics S22__ consists of 5 projects (4 class ass
 ## 1. Contribution
 The initial assignment was made partly in collaboration with others from the course, but the final code is my own. I made several adjustments to the code since I first handed it in.
 
-The [classifier_utils.py](https://github.com/agnesbn/LANG_assignment4/blob/main/utils/classifier_utils.py) script in the `utils` folder was made by Ross and used in the [machine learning script](https://github.com/agnesbn/LANG_assignment4/blob/5a222ed9800f66f328997483b57f09ab5d8c17f5/src/classification_machine.py#L13). Furthermore, the [save_history()](https://github.com/agnesbn/LANG_assignment4/blob/e7665a2f5aebc731ec1c387a72eb6ddaf1469cc1/src/classification_deep.py#L94) function was inspired by one provided by Ross during the course.
+The [`classifier_utils.py`](https://github.com/agnesbn/LANG_assignment4/blob/main/utils/classifier_utils.py) script in the `utils` folder was made by Ross and used in the [machine learning script](https://github.com/agnesbn/LANG_assignment4/blob/5a222ed9800f66f328997483b57f09ab5d8c17f5/src/classification_machine.py#L13). Furthermore, the [`save_history()`](https://github.com/agnesbn/LANG_assignment4/blob/e7665a2f5aebc731ec1c387a72eb6ddaf1469cc1/src/classification_deep.py#L94) function was inspired by one provided by Ross during the course.
 
 ## 2. Assignment description by Ross
 ### Main task
