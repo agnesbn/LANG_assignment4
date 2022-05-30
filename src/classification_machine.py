@@ -47,7 +47,7 @@ def report_to_txt(report, report_name):
 """ Classification function """        
 def classification():
     # load and read the data
-    filename = os.path.join("in", "toxic", "VideoCommentsThreatCorpus.csv")
+    filename = os.path.join("in", "VideoCommentsThreatCorpus.csv")
     data = pd.read_csv(filename)
     # change 0's and 1's to labels, "non-toxic" and "toxic"
     data["label"].replace({0:"non-toxic", 1:"toxic"}, inplace = True)

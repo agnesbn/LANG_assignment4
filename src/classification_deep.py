@@ -147,7 +147,7 @@ def pre_process_corpus(docs):
 """ Classification function """    
 def classification(epochs, embed_size, batch_size):
     # load and read the data
-    filename = os.path.join("in", "toxic", "VideoCommentsThreatCorpus.csv")
+    filename = os.path.join("in", "VideoCommentsThreatCorpus.csv")
     dataset = pd.read_csv(filename)
     # manually split the data
     X = dataset["text"].values
