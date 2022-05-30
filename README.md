@@ -59,7 +59,8 @@ The output will be saved in [`out/machine`](https://github.com/agnesbn/LANG_assi
 ### Deep learning script
 Make sure your current directory is the `LANG_assignment4` folder. Then from the command line, run:
 ```
-python src/classification_deep.py (--plot_name <PLOT NAME> --report_name <REPORT NAME> --epochs <EPOCHS> --embed_size <EMBEDDING SIZE> --batch_size <BATCH SIZE>
+python src/classification_deep.py (--plot_name <PLOT NAME> --report_name <REPORT NAME> 
+--epochs <EPOCHS> --embed_size <EMBEDDING SIZE> --batch_size <BATCH SIZE>
 ```
 __Data saving arguments__:
 - `<PLOT NAME>`: The name you want the history plot to be saved under. The default is `deep_history_plot`.
